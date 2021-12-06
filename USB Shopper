@@ -1,0 +1,14 @@
+#include <iostream>
+
+using namespace std;
+int main() 
+{
+	int price = 6;
+	int money = 50;
+	int how = money / price;
+
+	cout << "She can only afford " << how << " sticks" << endl;
+
+	cin.get(); //keeps console window open in Visual Studio
+	return 0;
+}
